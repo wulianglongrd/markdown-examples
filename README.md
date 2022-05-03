@@ -16,7 +16,7 @@
 |链接 (Link)               | \[title\](http://www.example.com) |
 |图片 (Image)              | !\[alt text\](./path/to/image.jpg) |
 
-## 表格
+## 表格 [syntax](https://github.com/GitbookIO/markdown/blob/master/syntax/tables.md)
 > 使用`:`来控制对齐
 
 | 左对齐 | 右对齐|居中对齐|
@@ -24,12 +24,19 @@
 | baidu | yahoo| google |
 | baiduuuuuuuuuuu | yahooooooooooooo | gooooooooooogle |
 
-## 代码块
+## 代码块 [syntax](https://github.com/GitbookIO/markdown/blob/master/syntax/code.md)
 > 行内插入，一个单词或者一句代使用，使用 \`code\`
-> 
-> 多行代码，使用三个反引号包裹多行
 
+    `if ok { return }`
 `if ok { return }`
+
+> 多行代码，1. 代码的每行前有至少4个空格或一个tag 2. 使用三个反引号包裹
+
+    ```golang
+      func Sum(a, b int) int {
+        return a + b
+      }
+    ```
 
 ```golang
 func Sum(a, b int) int {
@@ -40,3 +47,4 @@ func Sum(a, b int) int {
 ## links
 - [Markdown 语法](https://keatonlao.gitee.io/a-study-note-for-markdown/syntax/)
 - [younghz/Markdown](https://github.com/younghz/Markdown)
+- [GitbookIO/markdown](https://github.com/GitbookIO/markdown)
