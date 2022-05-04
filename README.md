@@ -44,6 +44,25 @@ func Sum(a, b int) int {
 }
 ```
 
+## 图片 [syntax](https://keatonlao.gitee.io/a-study-note-for-markdown/syntax/%E8%AF%A6%E7%BB%86%E7%89%88/markdown-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/)
+> 行内图片
+
+    ![alt text](/path/to/img.jpg "Title")
+
+![octocat](./resource/image_small.png "octocat small")
+
+
+> 可通过div+css 控制图片的大小、对齐方式等
+>
+      <div align=center>
+        <img src="./resource/image_big.jpg" height="200" width="400">
+      </div>
+
+<div align=center>
+  <img src="resource/image_big.jpg" height="200" width="400">
+</div>
+
+
 ## links
 - [Markdown 语法](https://keatonlao.gitee.io/a-study-note-for-markdown/syntax/)
 - [younghz/Markdown](https://github.com/younghz/Markdown)
