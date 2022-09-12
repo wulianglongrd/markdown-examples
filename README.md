@@ -67,3 +67,4 @@ func Sum(a, b int) int {
 - [Markdown 语法](https://keatonlao.gitee.io/a-study-note-for-markdown/syntax/)
 - [younghz/Markdown](https://github.com/younghz/Markdown)
 - [GitbookIO/markdown](https://github.com/GitbookIO/markdown)
+- [Syntax supported by github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
